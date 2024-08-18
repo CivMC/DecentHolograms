@@ -769,7 +769,7 @@ public class Hologram extends UpdatingHologramObject implements ITicked {
         location.setY((int) (location.getY() - (isDownOrigin() ? 0 : page.getHeight())) + 0.5);
         for (int i = 0; i < amount; i++) {
             int id = page.getClickableEntityId(i);
-            nms.showFakeEntityArmorStand(player, location, id, true, false, true);
+            nms.showFakeEntityArmorStand(player, location, id, true, false, false);
             location.add(0, 1.8, 0);
         }
     }

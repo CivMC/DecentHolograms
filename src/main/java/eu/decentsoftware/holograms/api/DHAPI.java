@@ -97,7 +97,7 @@ public final class DHAPI {
                 page.addLine(hologramLine);
             }
         }
-        hologram.showAll();
+//        hologram.showAll();
         hologram.save();
         return hologram;
     }
